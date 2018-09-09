@@ -1,0 +1,133 @@
+
+html {
+  height: 100%;
+
+}
+
+body {
+   padding: 0;
+   text-align: center;
+   position: relative;
+   margin: 0;
+   height: 100%;
+
+
+}
+
+header {
+  height: 100px;
+
+}
+
+
+.main {
+  overflow: hidden;
+   float: left;
+   width: 100%;
+   margin: 50px auto;
+   padding: 100px 150px 0 150px;
+ }
+
+ .tps-section {
+    width: 100% !important;
+    max-width: 1100px;
+    margin: 10px auto;
+
+  }
+
+  .main h1 {
+    padding:20%;
+    width: 100%;
+    font-size: 60px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-weight: 100;
+    margin: 0;
+    font-size: 60px;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  .page1 .tps-wrapper {
+    background-image: url("../img/web1.png");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 60vw;
+  }
+
+
+  .page2 .tps-wrapper {
+      background-image: url("../img/web2.png");
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      width: 60vw;
+  }
+
+  .page3 .tps-wrapper {
+        background-image: url("../img/web3.png");
+        background-size: cover;
+        background-position: center;
+        height: 60vh;
+        width: 60vw;
+  }
+
+  .last-page .tps-wrapper {
+        background-image: url("../img/web4.png");
+        background-size: cover;
+        background-position: center;
+        height: 60vh;
+        width: 60vw;
+  }
+
+
+  @media screen and (max-width:650px) {
+
+    .main {
+      overflow: hidden;
+       float: left;
+       width: 100%;
+       margin: 50px auto;
+       padding: 120px 100px 0 90px;
+     }
+
+
+      .page1 .tps-wrapper {
+        background-size: 150% auto;
+        background-position: center;
+        background-repeat: no-repeat;
+          height: 40vh;
+          width: 60vw;
+        }
+
+
+      .page2 .tps-wrapper {
+        background-size: 150% auto;
+        background-position: center;
+        background-repeat: no-repeat;
+            height: 50vh;
+            width: 60vw;
+        }
+
+      .page3 .tps-wrapper {
+        background-size: 150% auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50vh;
+        width: 60vw;
+        }
+
+      .last-page .tps-wrapper {
+        background-size: 150% auto;
+        background-position: center;
+        background-repeat: no-repeat;
+              height: 50vh;
+              width: 60vw;
+        }
+
+
+
+
+  }
