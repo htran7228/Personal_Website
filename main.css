@@ -414,23 +414,11 @@ font-family: 'Open Sans', sans-serif;  font-size: 20px;
     margin: 0 auto;
   }
 
-  .footer-brief {
-    width: 50%;
-    float: left;
-
-  }
-
-  .footer-brief p {
-    font-size: 20px;
-    font-family: 'Rubik', sans-serif;
-
-  }
-
   .social-media {
     width: 25%;
+    margin: 0 auto;
     padding: 10px;
 
-    float: right;
 
   }
 
